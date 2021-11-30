@@ -60,7 +60,7 @@ export SEARCH_INDEX_NAME="<Your Search Index Name>"
 
 To test that you can receive events from the Event Hub without sending data to Azure Cognitive Search run the "receiver.py"
 
-Run the receiver that sends data to Azure Cognitive Search.
+Run the receiver in a terminal that indexes data to Azure Cognitive Search.
 
 ```bash
 python3 receiver-acs.py
@@ -70,11 +70,13 @@ python3 receiver-acs.py
 
 ### Run the Sender
 
+In a separate terminal window run the Event Hub sender code.
+
 ```bash
 python3 send.py
 ```
 
-When the sender runs, there should be an indication that data was uploaded successfully to Azure Cognitive Search.
+When the sender runs, there should be an indication on the receiver terminal that data was uploaded successfully to Azure Cognitive Search.
 
 ![Run receiver](/images/s3.png)
 
