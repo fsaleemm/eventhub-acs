@@ -83,3 +83,9 @@ When the sender runs, there should be an indication on the receiver terminal tha
 Go to the Azure Cognitive Search service and to the index you created and in the Search Explorer click "Search". You should see the data sent to Event Hub will be indexed in Azure Cognitive Search.
 
 ![Run receiver](/images/s4.png)
+
+[Event Hub Samples](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/eventhub/azure-eventhub/samples)
+
+[Azure Cognitive Search Samples](https://github.com/Azure/azure-sdk-for-python/tree/azure-search-documents_11.2.0/sdk/search/azure-search-documents/samples)
+
+Disclaimer: These samples are not production ready code. These samples do not have the apprpriate unit tests and exception handling needed for production code. 
